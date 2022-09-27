@@ -2,12 +2,19 @@
   width: 70%;
   margin: auto;
   text-align: center;
+  position: fixed; /* or absolute */
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+
 }
 
 .dice {
   text-align: center;
   display: inline-block;
 }
+
 
 body {
   margin: 0;
@@ -33,10 +40,14 @@ img {
 }
 
 footer {
-  margin-top: 5%;
   color: #EEEEEE;
   text-align: center;
   font-family: 'Indie Flower', cursive;
+  position: fixed; /* or absolute */
+  top: 90%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
 
 }
 
