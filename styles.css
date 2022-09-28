@@ -53,4 +53,5 @@ footer {
 
 .fa-flag{
   color: #9c060c;
+  filter: drop-shadow(4px 0 #232931);
 }
