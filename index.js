@@ -14,9 +14,9 @@ function rollTheDice(){
     var icon = '<i class="fa-solid fa-flag"></i>';
 
     if(randomNumber1>randomNumber2){
-        document.querySelector("h1").innerHTML =  icon + " Players 1 Wins! ";
+        document.querySelector("h1").innerHTML =  icon + " Player 1 Wins! ";
     }else if (randomNumber1<randomNumber2){
-        document.querySelector("h1").innerHTML =  " Players 2 Wins! " + icon;
+        document.querySelector("h1").innerHTML =  " Player 2 Wins! " + icon;
     }
     else{
         document.querySelector("h1").innerHTML =  "Draw";
